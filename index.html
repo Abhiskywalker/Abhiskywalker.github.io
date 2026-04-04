@@ -1,52 +1,87 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
-  <title>Abhishek | Contact Page</title>
+  <title>Abhishek Kumar Singh | Contact Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <style>
     body {
-      font-family: Arial;
+      font-family: Arial, sans-serif;
       text-align: center;
-      background: #0f172a;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
       color: white;
-      padding: 30px;
+      padding: 20px;
     }
+
     .card {
       background: #1e293b;
-      padding: 20px;
-      border-radius: 15px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+      padding: 25px;
+      border-radius: 20px;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 0 25px rgba(0,0,0,0.6);
     }
+
     h1 {
       margin-bottom: 5px;
+      font-size: 26px;
     }
-    p {
+
+    .subtitle {
       color: #94a3b8;
+      margin-bottom: 20px;
     }
+
     .btn {
       display: block;
       margin: 10px auto;
-      padding: 12px;
-      width: 80%;
-      border-radius: 10px;
+      padding: 14px;
+      width: 90%;
+      border-radius: 12px;
       text-decoration: none;
       font-size: 16px;
       color: white;
+      font-weight: bold;
     }
+
     .whatsapp { background: #25D366; }
     .call { background: #3b82f6; }
     .upi { background: #f59e0b; }
+
+    .section-title {
+      margin-top: 25px;
+      font-size: 20px;
+    }
+
+    .service {
+      background: #0f172a;
+      margin: 8px 0;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+
   </style>
 </head>
 
 <body>
+
   <div class="card">
-    <h1>👋 Abhishek Kumar Singh</h1>
-    <p>Welcome to my smart contact page</p>
+    <h1> Abhishek Kumar Singh</h1>
+    <p class="subtitle">Helping you with smart financial services 🚀</p>
 
     <a class="btn whatsapp" href="https://wa.me/917277248390">💬 WhatsApp Me</a>
     <a class="btn call" href="tel:+917277248390">📞 Call Me</a>
     <a class="btn upi" href="upi://pay?pa=abhisheksingh101@naviaxis">💳 Pay via UPI</a>
+
+    <h2 class="section-title">💼 My Services</h2>
+
+    <div class="service">✔ Loan Assistance</div>
+    <div class="service">✔ Credit Card Support</div>
+    <div class="service">✔ Recharge & Bill Payment</div>
+    <div class="service">✔ Discount Gift Cards</div>
+
   </div>
+
 </body>
 </html>
