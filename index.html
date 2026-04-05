@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Abhishek Kumar Singh | Contact Page</title>
@@ -8,7 +8,7 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      background: linear-gradient(135deg, #0f172a, #1e293b);
+      background: linear-gradient(135deg, #0f172a, #020617);
       color: white;
       padding: 20px;
     }
@@ -19,17 +19,35 @@
       border-radius: 20px;
       max-width: 400px;
       margin: auto;
-      box-shadow: 0 0 25px rgba(0,0,0,0.6);
+      box-shadow: 0 0 30px rgba(0,0,0,0.7);
+    }
+
+    .profile {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      border: 3px solid #3b82f6;
+      margin-bottom: 10px;
     }
 
     h1 {
-      margin-bottom: 5px;
-      font-size: 26px;
+      margin: 5px 0;
+      font-size: 24px;
     }
 
     .subtitle {
       color: #94a3b8;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
+      font-size: 14px;
+    }
+
+    .trust {
+      background: #0f172a;
+      padding: 8px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      font-size: 13px;
+      color: #22c55e;
     }
 
     .btn {
@@ -42,6 +60,11 @@
       font-size: 16px;
       color: white;
       font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
     }
 
     .whatsapp { background: #25D366; }
@@ -49,16 +72,22 @@
     .upi { background: #f59e0b; }
 
     .section-title {
-      margin-top: 25px;
-      font-size: 20px;
+      margin-top: 20px;
+      font-size: 18px;
     }
 
     .service {
-      background: #0f172a;
-      margin: 8px 0;
+      background: #020617;
+      margin: 6px 0;
       padding: 10px;
       border-radius: 10px;
-      font-size: 15px;
+      font-size: 14px;
+    }
+
+    .footer {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #64748b;
     }
 
   </style>
@@ -67,8 +96,14 @@
 <body>
 
   <div class="card">
-    <h1> Abhishek Kumar Singh</h1>
-    <p class="subtitle">Helping you with smart financial services 🚀</p>
+
+    <!-- 📸 Add your image link below -->
+    <img src="https://via.placeholder.com/90" class="profile">
+
+    <h1>👋 Abhishek Kumar Singh</h1>
+    <p class="subtitle">Smart Financial Services & Assistance 🚀</p>
+
+    <div class="trust">✔ Trusted Service | Fast Response</div>
 
     <a class="btn whatsapp" href="https://wa.me/917277248390">💬 WhatsApp Me</a>
     <a class="btn call" href="tel:+917277248390">📞 Call Me</a>
@@ -80,6 +115,8 @@
     <div class="service">✔ Credit Card Support</div>
     <div class="service">✔ Recharge & Bill Payment</div>
     <div class="service">✔ Discount Gift Cards</div>
+
+    <div class="footer">© 2026 Abhishek Kumar Singh</div>
 
   </div>
 
